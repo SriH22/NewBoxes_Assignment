@@ -25,6 +25,7 @@ services/groq_service.py     # AI integration
 utils/                       # Helper functions
 output/                      # Generated JSON files
 
+
 ✨ Features
 📰 For exmaple this code Scrapes The Hindu & Times of India
 
