@@ -9,7 +9,7 @@ from groq import Groq
 current_date = datetime.now().strftime('%Y-%m-%d')
 
 # Initialize Groq client
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "Your Groq Key"
 client = Groq(api_key=GROQ_API_KEY)
 
 def load_news_data(json_file_path):
