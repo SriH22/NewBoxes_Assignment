@@ -14,17 +14,6 @@ A Python tool that automatically scrapes news various sources, generates AI summ
 
 Once you run the backend script now run the ui.py script from the same directory, it takes the json folder location as the input so chnage the location 
 Also Enter your groq key in the top in ui.py
-   
-📁 Project Structure
-
-news_scraper/
-main.py                      -- Entry point
-config/settings.py           -- Configuration
-scraper/                     -- News source scrapers
-services/groq_service.py     -- AI integration
-utils/                       -- Helper functions
-output/                      -- Generated JSON files
-
 
 ✨ Features
 📰 For exmaple this code Scrapes The Hindu & Times of India
