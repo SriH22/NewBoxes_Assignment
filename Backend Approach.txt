@@ -1,0 +1,59 @@
+Ai News Feed Approach - Simple Explanation
+
+What This Code Does
+
+This is a  smart news collector that automatically gathers daily news from various sources  removes duplicates, and adds AI-powered summaries, and key words - all saving to a simple JSON file.
+
+Step-by-Step Approach
+
+1.News Collection 
+# Like a web browser visiting news websites
+- Goes to The Hindu homepage
+- Goes to Times of India homepage  
+- Finds all article links and titles
+- Collects basic info (title, link, date)
+
+2. Smart Duplicate Removal
+# Prevents storing same news multiple times
+- Compares new articles with existing ones
+- Checks if titles are identical or very similar
+- Only keeps truly new articles
+- Like having a smart filter
+
+3. AI Enhancement 
+# For each new article:
+1. Reads full article content
+2. Uses Groq AI to understand the article
+3. Creates short 2-3 sentence summary  
+4. Extracts important keywords
+5. Saves everything together
+
+4. Simple Storage System
+# Uses JSON files as database
+- One file per day: "news_articles_2024-01-15.json"
+- Easy to read and understand
+- Contains everything: articles + AI analysis
+
+Current Tech Stack (POC Version)
+1.	Web Scraping: BeautifulSoup + Selenium
+2.	AI Analysis: Groq API (LLaMA model)  
+3.	Database: JSON files (simple storage)
+4.	Processing: Python
+
+Future Enhancements - 
+
+Database Upgrades
+1.	MongoDB → Handle millions of articles
+2.	Vector DB → Smart semantic search
+
+AI Power Boost
+# Current (Basic AI)
+1. Simple summaries
+2. Basic keywords
+
+# Future (Advanced AI)  
+1.	RAG System → Ask questions about news
+2.	Sentiment Analysis → Positive/Negative news
+3.	Topic Clustering → Group similar stories
+4.	Trend Detection → Spot emerging stories
+
