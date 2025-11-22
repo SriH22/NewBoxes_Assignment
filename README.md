@@ -18,12 +18,12 @@ Also Enter your groq key in the top in ui.py
 📁 Project Structure
 
 news_scraper/
-main.py                      # Entry point
-config/settings.py           # Configuration
-scraper/                     # News source scrapers
-services/groq_service.py     # AI integration
-utils/                       # Helper functions
-output/                      # Generated JSON files
+main.py                      -- Entry point
+config/settings.py           -- Configuration
+scraper/                     -- News source scrapers
+services/groq_service.py     -- AI integration
+utils/                       -- Helper functions
+output/                      -- Generated JSON files
 
 
 ✨ Features
